@@ -158,16 +158,66 @@ img {
   margin-top: 25px;
 }
 
-/* FOOTER */
+/*Footer Bar List */
+
 
 #subscribe {
   margin-left: 115px;
   margin-right: auto;
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 50%;
   font-size: 15px;
   padding: 13px;
+}
+
+.subsbtn {
+  background-color: #ffffff;
+  color: 000000;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-left: 200px;
+  float: left;
+  margin-top: -15px;
+  margin-bottom:10px;
+}
+
+/*foooter containers */
+.footer-container{
+  background-color: #65558F;
+  width:108%;
+  margin-left:-20px;
+  margin-top:25px;
+  height:180px;
+  
+}
+
+.footer1
+{
+color: #000000;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.footer-heading{
+display:flex;
+flex-direction:column;
+margin-right:2rem;
+font-size:15px;
+  
+}
+
+.footer-heading h2{
+  margin-bottom:0.5rem;
+}
+
+.footer-heading a{
+  color:#ffffff;
+  text-decoration:none;
+  margin-bottom:0.5rem;
 }
 
 footer {
@@ -175,13 +225,14 @@ footer {
 }
 
 #website {
-  margin-left: 160px;
+  margin-left: 200px;
   font-size: 16px;
   font-weight: bold;
 }
 
 .address {
   margin-bottom: 20px;
+  margin-left:75px;
 }
 
 .email {
@@ -214,4 +265,22 @@ a:active {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+
+.footer-heading a:hover{
+  color:red;
+  transition:0.3s, ease-out;
+}
+
+.copyright{
+color: #ffffff;
+weight: 500px;
+}
+
+.googlemap{
+width: 150px;
+height: 150px;
+gap: 10px;
+opacity: 0px;
+margin-left:200px;
 }
